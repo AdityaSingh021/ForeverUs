@@ -35,14 +35,21 @@ export function Timeline() {
                   style={{ animationDelay: `${index * 150}ms`, animationFillMode: 'backwards' }}
                 >
                   {image && (
-                    <Image
-                      src={image.imageUrl}
-                      alt={image.description}
-                      data-ai-hint={image.imageHint}
-                      width={600}
-                      height={400}
-                      className="rounded-md w-full object-cover aspect-[3/2] mb-4"
-                    />
+                    <div className="relative w-full aspect-[2/3] mb-4 rounded-md overflow-hidden group">
+                      <Image
+                        src={image.imageUrl}
+                        alt={image.description}
+                        fill
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        className="
+                          object-cover
+                          transition-transform
+                          duration-500
+                          ease-out
+                          group-hover:scale-110
+                        "
+                      />
+                    </div>
                   )}
                   <div className="flex items-center gap-2 text-sm text-muted-foreground mb-2">
                     <Calendar className="w-4 h-4" />
