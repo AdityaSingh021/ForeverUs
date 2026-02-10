@@ -6,7 +6,7 @@ import { Calendar, Pin } from 'lucide-react';
 export function Timeline() {
   return (
     <div className="flex flex-col items-center text-center gap-4">
-      <h2 className="text-3xl md:text-4xl font-headline text-primary-foreground/90">Our Story So Far</h2>
+      <h2 className="text-3xl md:text-4xl font-headline text-foreground">Our Story So Far</h2>
       <p className="max-w-2xl text-lg text-muted-foreground font-body mb-8">
         A few of the moments that built our world, one memory at a time.
       </p>

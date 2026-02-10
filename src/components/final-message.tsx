@@ -4,7 +4,7 @@ import { Quote } from 'lucide-react';
 export function FinalMessage() {
   return (
     <div className="flex flex-col items-center text-center gap-4">
-      <h2 className="text-3xl md:text-4xl font-headline text-primary-foreground/90">
+      <h2 className="text-3xl md:text-4xl font-headline text-foreground">
         My Unspoken Vow
       </h2>
       <Card className="w-full max-w-3xl bg-card/80 backdrop-blur-sm shadow-lg border-accent/20">

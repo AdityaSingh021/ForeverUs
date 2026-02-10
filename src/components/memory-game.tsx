@@ -49,7 +49,7 @@ export function MemoryGame() {
 
   return (
     <div className="flex flex-col items-center text-center gap-4">
-      <h2 className="text-3xl md:text-4xl font-headline text-primary-foreground/90">A Little Memory Game</h2>
+      <h2 className="text-3xl md:text-4xl font-headline text-foreground">A Little Memory Game</h2>
       <Card className="w-full max-w-2xl bg-card/80 backdrop-blur-sm shadow-lg border-accent/20 transition-all duration-500"
             style={{ minHeight: '350px' }}>
         <div className={cn(

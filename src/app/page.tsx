@@ -16,7 +16,7 @@ export default function Home() {
             id="hero"
             className="text-center flex flex-col items-center gap-6"
           >
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-headline tracking-tight text-primary-foreground/90">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-headline tracking-tight text-foreground">
               Our Journey Together
             </h2>
             <p className="max-w-2xl text-lg text-muted-foreground font-body">
